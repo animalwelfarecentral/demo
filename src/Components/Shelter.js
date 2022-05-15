@@ -13,7 +13,7 @@ function Shelter(props) {
     <div className='res'>
         <img style={{'marginTop':'1vh','height':'17vh','width':'17vh'}} src={logo}></img>
         <br></br>
-        {props.name}<br></br>
+        <b>{props.name}</b><br></br>
         Rating: x/y stars <br></br>
         Distance: z kms <br></br>
         <button style={{
