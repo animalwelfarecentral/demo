@@ -8,7 +8,7 @@ function Animal(props) {
   }
 
   return (
-    <div className='animal'>
+    <div className='animal' onClick={setC}>
         <img src={props.src} style={{
             'height':'20vh','width':'17vw'
         }}></img><br></br>

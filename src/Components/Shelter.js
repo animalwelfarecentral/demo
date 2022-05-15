@@ -10,7 +10,7 @@ function Shelter(props) {
   }
 
   return (
-    <div className='res'>
+    <div className='res' onClick={setParent}>
         <img style={{'marginTop':'1vh','height':'17vh','width':'17vh'}} src={logo}></img>
         <br></br>
         <b>{props.name}</b><br></br>
