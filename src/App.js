@@ -16,8 +16,8 @@ function App() {
 
   if(isMobile){
     return(
-      <div>
-        no
+      <div style={{'marginTop':'2vh', 'textAlign':'center'}}>
+        Website is not mobile-friendly.
       </div>
     )
   }
