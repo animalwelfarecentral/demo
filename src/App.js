@@ -3,6 +3,7 @@ import './App.css';
 import Homepage from './Components/Homepage';
 import {useState} from 'react'
 import Profile from './Components/Profile';
+import {isMobile} from 'react-device-detect';
 
 
 function App() {
@@ -11,6 +12,14 @@ function App() {
 
   function setP(value){
     setPage(value)
+  }
+
+  if(isMobile){
+    return(
+      <div>
+        no
+      </div>
+    )
   }
 
   return (
