@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Homepage from './Components/Homepage';
-import {useState} from 'react'
+import {useState,useEffect} from 'react'
 import Profile from './Components/Profile';
 import {isMobile} from 'react-device-detect';
 
 
 function App() {
+
+  useEffect(() => {
+    document.title = "demo"
+ }, []);
+ 
 
   const [page,setPage] = useState('home') 
 
